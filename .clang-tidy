@@ -1,0 +1,14 @@
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  cppcoreguidelines-*,
+  -cppcoreguidelines-avoid-magic-numbers,
+  google-*,
+  misc-*,
+  modernize-*,
+  performance-*,
+  readability-*,
+  -readability-magic-numbers,
+HeaderFilterRegex: '*.h$'
+WarningsAsErrors: '*'
